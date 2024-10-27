@@ -1,0 +1,135 @@
+/* Amazon Machine Tag Associate Plugin */
+#amtap h4 {
+	display: inline;
+	margin-right: 0.1em;
+}
+#amtap p, #amtap ol, #amtap ul {
+	margin-top: 0.5em;
+	margin-bottom: 1.0em;
+}
+#amtap p.state {
+	display: inline;
+	font-size: 0.9em;
+}
+#amtap strong {
+	font-weight: bold;
+}
+#amtap ol {
+	margin-bottom: 2.0em;
+}
+#amtap ul.locales, #amtap ul.config-options {
+	list-style: none;
+	margin-left: 0; /* fix for IE */
+	padding-left: 0;
+}
+#amtap ul.locales li, #amtap ul.config-options li {
+	clear: both;
+	overflow: hidden;
+}
+#amtap acronym, #amtap abbr {
+	cursor: help;
+}
+
+/* AMTAP admin form elements */
+#amtap form {
+	border: none;
+	padding: 0 2.0em 1.0em;
+}
+#amtap form fieldset {
+	background: #EAF3FA;
+	border: none;
+	margin: 1.5em 0 1.0em;
+	padding: 1.0em 0 0;
+}
+#amtap fieldset h3, #amtap fieldset h4, #amtap fieldset p, #amtap fieldset ul, #amtap fieldset ul.locales, #amtap fieldset ul.config-options {
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+}
+#amtap ul.locales label.locale, #amtap ul.config-options label, #amtap label#defaultsLabel, #amtap span.indent {
+	display: block;
+	float: left;
+	padding-top: 0.2em;
+	width: 10.0em;
+}
+#amtap input {
+	vertical-align: middle;
+	width: 9.0em;
+}
+#amtap input#maxage {
+	width: 2.5em;
+}
+#amtap input#aws_access_key_id, #amtap input#aws_access_key_secret {
+	margin-right: 0.4em;
+	width: 14.0em;
+}
+#amtap input#aws_access_key_secret {
+	width: 25.0em;
+	margin-bottom: 1.0em;
+}
+#amtap input#groups {
+	width: 20.0em;
+}
+#amtap input#defaultTags {
+	width: 30.0em;
+}
+
+#amtap #responseArea {
+	background: #CFEBF7 url(../wp-content/plugins/amazon-machine-tags/img/icon-ajax-loading.gif) 6px 5px no-repeat;
+	clear: both; /* workaround for Opera bug */
+	float: left;
+	margin: 0.5em 0 1.0em 1px;
+	padding: 0.3em 0.5em 0.3em 26px;
+}
+#amtap #amtap-conf div.loading {
+	border: 1px solid #2580B2;
+}
+#amtap #amtap-conf div.updated, #amtap #amtap-conf div.error, #amtap-feedback {
+	background: url(../wp-content/plugins/amazon-machine-tags/img/icons.gif) 6px top no-repeat;
+}
+#amtap #amtap-conf div.updated {
+	background-color: #FFFFE0 !important;
+	background-position: 6px 6px;
+}
+#amtap #amtap-conf div.error {
+	background-color: #FFEFF7 !important;
+	background-position: 6px -40px;
+}
+
+#amtap-feedback {
+	padding: 1.0em 3.0em;
+	max-width: 888px;
+}
+#amtap-feedback p {
+	margin: 0;
+}
+#amtap-feedback.updated {
+	background-color: #FFFFE0 !important;
+	background-position: 1.0em 16px;
+}
+#amtap-feedback.error {
+	background-color: #FFEFF7 !important;
+	background-position: 1.0em -30px;
+	background-repeat: no-repeat;
+}
+
+#amtap input.radio {
+	background: transparent; /* fix for IE */
+	border: none; /* fix for IE */
+	margin-left: 2.0em;
+}
+#amtap input.first {
+	margin-left: 0;
+}
+#amtap input.radio, #amtap input.checkbox, #amtap .submit input {
+	width: auto;
+}
+#amtap p.submit {
+	background: white;
+	border: none;
+	clear: both;
+	margin-bottom: 0;
+	text-align: center;
+}
+#amtap .locales label, #amtap .locales span {
+	vertical-align: middle;
+}

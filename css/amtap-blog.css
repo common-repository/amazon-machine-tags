@@ -1,0 +1,46 @@
+/* Amazon Machine Tag Associate Plugin */
+div #amtap ul {
+	height: auto !important; /* hack for IE6 */
+	height: 1%; /* hack for IE6 */
+	margin: 0 0 1.0em;
+	overflow: hidden;
+}
+div #amtap ul li, div.amtap-item {
+	clear: both;
+	height: auto !important; /* hack for IE6 */
+	height: 1%; /* hack for IE6 */
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	text-indent: 0; /* unset from Kubrick theme */
+}
+div.amtap-item {
+	margin-bottom: 1.0em;
+}
+div #amtap ul li:before {
+	content: ""; /* unset raquos from the Kubrick theme */
+}
+
+#amtap h2 {
+	margin-bottom: 0;
+}
+#amtap li h3 {
+	line-height: 1.0;
+	margin: 0.6em 0 0.2em;
+}
+div.amtap-item h3 {
+	font-size: 1.0em;
+	margin: 0 0 0.2em;
+}
+#amtap li p, div.amtap-item p {
+	margin: 0;
+}
+#amtap a img, div.amtap-item a img {
+	border: 1px solid #EFEFEF;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+#amtap p.rating img, div.amtap-item p.rating img {
+	margin-left: -6px;
+}

@@ -1,0 +1,334 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Amazon Machine Tags\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-31 12:39+0100\n"
+"PO-Revision-Date: 2009-07-31 12:40+0100\n"
+"Last-Translator: Martin Kliehm <martin at kliehm dot eu>\n"
+"Language-Team: Martin Kliehm <martin at kliehm dot eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: 1\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\privat\n"
+"X-Poedit-SearchPath-0: wp-amtap\n"
+
+#: wp-amtap/amtap-admin.inc.php:5
+msgid "Canada"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:7
+msgid "Get Associate ID for Amazon.ca"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:8
+msgid "Set Canada as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:11
+msgid "France"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:13
+msgid "Get Associate ID for Amazon.fr"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:14
+msgid "Set France as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:17
+msgid "Germany"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:19
+msgid "Get Associate ID for Amazon.de"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:20
+msgid "Set Germany as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:23
+msgid "Japan"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:25
+msgid "Get Associate ID for Amazon.co.jp"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:26
+msgid "Set Japan as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:29
+msgid "United Kingdom"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:31
+msgid "Get Associate ID for Amazon.co.uk"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:32
+msgid "Set United Kingdom as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:35
+msgid "United States"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:37
+msgid "Get Associate ID for Amazon.com"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:38
+msgid "Set United States as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:57
+#: wp-amtap/amtap.php:79
+msgid "Amazon Machine Tags Configuration"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:60
+msgid "How to use it"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:63
+msgid "Get your own Amazon Web Services <a href=\"http://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key\">Access Key Identifyers</a>."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:64
+msgid "Create a <code>wp-content/cache/</code> directory with permissions set to 755, or 777 if you create the directory as <code>root</code> user."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:65
+msgid "Put <code>&lt;?php AMTAP::get_items(); ?&gt;</code> in your sidebar and start using machine tags."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:66
+msgid "Edit <code>amtap-blog.css</code> if you like."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:67
+msgid "If you want to use tags in a blog article, write <code>[amtap book:isbn=1234567890]</code> or <code>[amtap amazon:asin=1234567890]</code>."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:68
+msgid "If you have any further questions, check the description and comments on the <a href=\"http://learningtheworld.eu/2009/amazon-authorization/\">plugin homepage</a>."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:72
+msgid "Required settings"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:78
+msgid "AWS Access Key Identifiers"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:79
+msgid "(required)"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:84
+msgid "Access Key ID"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:87
+msgid "About the AWS Access Key"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:87
+#: wp-amtap/amtap-admin.inc.php:199
+msgid "What is this?"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:91
+msgid "Secret Access Key"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:97
+#: wp-amtap/amtap-admin.inc.php:229
+msgid "Update options &raquo;"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:102
+msgid "Optional settings"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:107
+msgid "Basic Configuration"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:108
+#: wp-amtap/amtap-admin.inc.php:136
+#: wp-amtap/amtap-admin.inc.php:172
+#: wp-amtap/amtap-admin.inc.php:185
+#: wp-amtap/amtap-admin.inc.php:208
+#: wp-amtap/amtap-admin.inc.php:220
+msgid "(optional)"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:113
+msgid "Sidebar headline"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:118
+msgid "Link target"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:120
+msgid "Same window (recommended)"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:122
+msgid "New window"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:128
+msgid "Show stars for average rating"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:135
+msgid "Amazon Associate IDs"
+msgstr ""
+
+# Please localize the link to Google Translation
+#: wp-amtap/amtap-admin.inc.php:138
+msgid "As an Associate you earn commissions by referring sales to Amazon. For each locale you need to <strong>register separately</strong>. You can use automatic <a href=\"http://www.google.com/language_tools\">translation tools</a> if you can&rsquo;t read the local content. You can leave fields empty if you have no Associate ID for a particular locale."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:139
+msgid "If you have the <strong><a href=\"http://priyadi.net/archives/2005/02/25/wordpress-ip-to-country-plugin/\">IP to Country</a></strong> plugin installed, a visitor gets the link to the nearest Amazon shop supporting her preferred language. Otherwise you probably know where most of your visitors come from and can set the default locale here."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:151
+msgid "Get ID"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:154
+msgid "set as default"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:163
+msgid "Use IP to Country to override the default if available"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:171
+msgid "Default Tags"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:174
+msgid "Some people, like book authors, want links to featured items in the sidebar on <em>every</em> page, including the home page. Enter a comma separated list of machine tags (<code>book:isbn=1234567890</code>) here if you want that feature. Otherwise leave it empty."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:176
+msgid "Default tags"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:184
+msgid "Advanced Configuration"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:186
+msgid "The <a href=\"https://affiliate-program.amazon.com/gp/advertising/api/detail/agreement.html\">Amazon Product Advertising <acronym>API</acronym></a> license allows requests from your blog every second and limits caching to 1 hour. So the <strong>maximum cache age</strong> should be anything between 1 and 3600 seconds."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:187
+msgid "Don&rsquo;t change the <strong>ResponseGroup</strong> parameters unless you fully understand the concept and are prepared to adapt the <acronym title=\"Extensible Stylesheet Language Transformation\">XSLT</acronym> as well."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:192
+msgid "<abbr title=\"Maximum\">Max.</abbr> cache age"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:197
+msgid "Response Group"
+msgstr ""
+
+# title attribute: don't use any HTML tags here
+#: wp-amtap/amtap-admin.inc.php:199
+msgid "About the ResponseGroup parameter"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:207
+msgid "Donate Amazon Karma"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:210
+msgid "If you like this plugin and don&rsquo;t have Associate IDs for all locales, you could support <a href=\"http://learningtheworld.eu/2009/amazon-authorization/\">the author</a> by letting his IDs fill in the blanks:"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:213
+msgid "Donate unused Amazon credits to the author"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:219
+msgid "Debugging"
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:222
+msgid "If you check the <strong>debug option</strong>, there will be a commented <acronym title=\"Uniform Resource Locator\">URL</acronym> in a post&rsquo;s source code. Paste it into your browser&rsquo;s address bar, replace &quot;<code>&amp;amp;</code>&quot; with &quot;<code>&amp;</code>&quot; and get plain <acronym title=\"Extensible Markup Language\">XML</acronym> reponses for debugging."
+msgstr ""
+
+#: wp-amtap/amtap-admin.inc.php:225
+msgid "Debug option"
+msgstr ""
+
+#: wp-amtap/amtap.php:79
+msgid "Amazon Tags"
+msgstr ""
+
+#: wp-amtap/amtap.php:421
+msgid "Your access keys have been verified."
+msgstr ""
+
+#: wp-amtap/amtap.php:422
+msgid "Your server is located in a private IP address space. Amazon Web Services cannot fetch the file that is required to validate the access key."
+msgstr ""
+
+# JavaScript string: don't use any HTML tags here
+#: wp-amtap/amtap.php:423
+msgid "Your access key has been cleared. However, a valid key is required to access Amazon Web Services."
+msgstr ""
+
+#: wp-amtap/amtap.php:424
+msgid "The access key or the secret key is empty. However, a valid key and secret is required to access Amazon Web Services."
+msgstr ""
+
+#: wp-amtap/amtap.php:425
+msgid "The access key or the secret key you entered is invalid. Please double-check it."
+msgstr ""
+
+# JavaScript string: don't use any HTML tags here
+#: wp-amtap/amtap.php:426
+msgid "No connection to Amazon Web Services. Please retry later."
+msgstr ""
+
+# JavaScript string: don't use any HTML tags here
+#: wp-amtap/amtap.php:427
+msgid "Cache directory does not exist. Please create wp-content/cache/"
+msgstr ""
+
+# JavaScript string: don't use any HTML tags here
+#: wp-amtap/amtap.php:428
+msgid "Cache directory is not writable. Please check directory permissions."
+msgstr ""
+
